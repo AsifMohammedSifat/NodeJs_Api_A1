@@ -15,7 +15,7 @@ app.use(express.json());
 //databse connected
 dbConnect();
 
-app.use("/user/",usersRoute);
+app.use("https://afternoon-tor-01109.herokuapp.com/user/",usersRoute);
 
 
 
